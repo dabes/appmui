@@ -1,0 +1,10 @@
+{
+  "database": {
+    "user": "postgres",
+    "host": "10.0.18.80",
+    "database": "contab0",
+    "password": "1",
+    "port": 5433,
+    "connectionTimeoutMillis": 2000
+  }
+}

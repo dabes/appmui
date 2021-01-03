@@ -20,7 +20,6 @@
 
 @media (min-width: 1024px) {
   .btn-menu {
-    display: none;
     position: relative;
   }
 }
@@ -80,6 +79,7 @@
   color: black;
 }
 
-.btn-menu {
-  display: block !important;
+.h4,
+h4 {
+  font-size: 1.5rem;
 }

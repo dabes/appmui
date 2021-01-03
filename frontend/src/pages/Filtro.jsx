@@ -40,7 +40,6 @@ function Filtro() {
             <MDBBtn 
               onClick={() => 
               {
-                console.log(state)
                 dispatch({
                   type: UPDATE_FORM_EXERCICIO,
                   exercicio: state.exercicio,})

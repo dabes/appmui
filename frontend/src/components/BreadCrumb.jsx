@@ -22,7 +22,6 @@ function HeaderView() {
           if (link === "/home" ) link = "";
           if (val !== "home") link = link + "/" + val;
           else link = "/home";
-          console.log(val,link)
           return (<MDBBreadcrumbItem ><a href={link} className="white-text bolder">{capitalizeFirstLetter(val)}</a></MDBBreadcrumbItem>)
       }else{
         return "";

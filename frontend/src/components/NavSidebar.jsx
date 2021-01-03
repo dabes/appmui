@@ -10,7 +10,6 @@ export const NavSidebar = () => {
   const history = useHistory();
   const location = useLocation();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  console.log(isSidebarOpen);
   return (
     <React.Fragment>
       {/* Sidebar Overlay */}

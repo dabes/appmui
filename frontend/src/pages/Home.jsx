@@ -1,16 +1,18 @@
 import React from 'react';
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
 import {DashboardLayout} from '../components/Layout';
-import profileImg from "../assets/img/profile.jpeg";
+// import profileImg from "../assets/img/profile.jpeg";
+import {profile} from "../assets/img/profile.js";
 
 const HomePage = () => {
+  console.log(profile)
   return (
     <DashboardLayout>
       <MDBCol >
       <div className="container">
         <MDBCard  >
         <div class="card-up info-color-dark card-top card-box border-radius-top"></div>
-          <MDBCardImage waves={false} className="rounded-circle img-responsive card-stack-top card-box" src={profileImg} style={{width:230, cursor:"default"}} />
+          <MDBCardImage waves={false} className="rounded-circle img-responsive card-stack-top card-box" src={profile} style={{width:230, cursor:"default"}} />
           <MDBCardBody>
             <MDBCardTitle><font className="font-light-blue">const </font> name = "Daniel Vieira Dabés";</MDBCardTitle>
             <hr className='hr-dark' />
